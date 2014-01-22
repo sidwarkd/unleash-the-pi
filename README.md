@@ -8,5 +8,15 @@ twitter = Twython("Consumer Key", "Consumer Secret", "Access Token","Access Toke
 ```
 If you don't want Twitter integration then just comment out the lines of code that attempt to update Twitter status.
 
-##Requirements
+##Dependencies
   * Python 2.7.3
+  * [RPi.GPIO][gpio]
+  * [spidev][spidev]
+  * [smbus][smbus]
+  * [Twython][twython]
+
+
+[twython]: https://github.com/ryanmcgrath/twython
+[spidev]: https://github.com/doceme/py-spidev
+[smbus]: 
+[gpio]: https://pypi.python.org/pypi/RPi.GPIO
